@@ -1,16 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Learning Outcomes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After completing this project, you will have learned:
 
-## React Compiler
+1. **Component-Based Architecture** - Understand how to build reusable UI components following React best practices, with proper prop management and state handling through custom components like Button, TextField, Select, Rating, and Checkbox.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **State Management with React Hooks** - Master useState hook for managing component state in functional components, handling form data, tracking user interactions, and updating component behavior based on state changes.
 
-## Expanding the ESLint configuration
+3. **CSS-in-Components Pattern** - Learn how to organize and style components with scoped CSS files, implementing responsive design patterns, hover effects, transitions, and maintaining consistent styling across multiple components.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **Form Handling in React** - Build complex forms with multiple input types, implement form validation, handle form submission, manage form state, and create reusable form components with controlled inputs and event handling.
+
+5. **Component Integration and Composition** - Develop skills in composing multiple UI components together to create feature-rich pages (Home, About, Contact), pass data between components through props, and manage complex user interactions across integrated components.
+
