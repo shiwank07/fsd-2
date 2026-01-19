@@ -1,0 +1,60 @@
+.rating-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.rating-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.rating-container {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #ddd;
+  user-select: none;
+}
+
+.star.filled {
+  color: #ffc107;
+  transform: scale(1.1);
+}
+
+.star.empty {
+  color: #ddd;
+}
+
+.star:hover:not(.readonly) {
+  transform: scale(1.2);
+}
+
+.star.readonly {
+  cursor: default;
+}
+
+.rating-small .star {
+  font-size: 16px;
+}
+
+.rating-medium .star {
+  font-size: 24px;
+}
+
+.rating-large .star {
+  font-size: 32px;
+}
+
+.rating-value {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
