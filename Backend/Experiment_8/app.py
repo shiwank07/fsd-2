@@ -1,11 +1,4 @@
-# guard imports so that missing dependencies give a clear message
-try:
-    from flask import Flask
-except ModuleNotFoundError:
-    raise RuntimeError(
-        "Flask is not installed. activate your venv and run `pip install -r requirements.txt`"
-    )
-
+from flask import Flask
 from routes.student_routes import student_bp
 # from middleware.logger import register_middlewares
 
